@@ -1,0 +1,78 @@
+/* global style */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width:85%;
+    margin: 0 auto;
+}
+
+/* ________________Shared Property Style Starts____________________ */
+
+.title_h{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(4, 4, 4);
+}
+
+/* ________________Shared Property Style End____________________ */
+
+/* ________________Navbar styles sections start_______________________ */
+
+.nav_btn{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: green;
+    font-weight:600;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-items: center; */
+    /* width: 80%;
+    margin: 50px auto; */
+}
+/* ________________Navbar-section styles  End_______________________ */
+
+/* ________________Banner-section styles  Start_______________________ */
+.banner_section{
+    border: 1px solid black;
+    height: 560px;
+    margin-top: 60px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.title_text_part{
+    color: rgba(14, 14, 14, 0.5);
+    margin:16px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header_title{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    margin:16px 0;
+}
+.banner_btn{
+    padding: 17px 34px  ;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin:24px 0;
+    border: none;
+}
+/* ________________Banner-section styles  End_______________________ */
