@@ -20,12 +20,8 @@ body{
     font-weight: 700;
     font-size: 40px;
     color: rgb(14, 14, 14);
+    margin-bottom: 20px;
 }
-.primary_para{
-
-}
-
-/* ________________Shared Property Style End____________________ */
 
 .inovation_img{
     margin-bottom: 20px;
@@ -40,7 +36,21 @@ body{
 }
 .primary_para{
     color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 10px;
 }
+.common_btn{
+    margin-top: 10px;
+    padding: 11px 20px;
+    
+    border-radius: 8px;
+    font-weight:600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* ________________Shared Property Style End____________________ */
+
+
 
 /* ________________Navbar styles sections start_______________________ */
 
@@ -126,3 +136,109 @@ nav{
 
 
 /* ________________pillers of bangladesh -section styles  End_______________________ */
+
+
+/* ________________ Vision of bangladesh styles  Start_______________________ */
+
+.vision_of_ban_section{
+   
+    margin-bottom: 80px;
+    
+    
+}
+.vision_container{
+    display: flex;
+    justify-content:flex-start;
+    gap: 40px;  
+}
+.vision_box1{
+   
+    background-color: rgb(200, 215, 240);
+    margin-top:50px;
+    padding: 40px;
+    width: 30%;
+    height: px;   
+    text-align: start;
+    border-radius: 16px;
+}
+.box1_btn{
+    margin-top: 10px;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    font-weight:600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+.vision_box2{
+   
+    background-color: #c0f1db;
+    margin-top:50px;
+    padding: 40px;
+    width: 30%;
+    height: px;   
+    text-align: start;
+    border-radius: 16px;
+}
+.box2_btn{
+    margin-top: 10px;
+    padding: 11px 20px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    font-weight:600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.vision_box3{
+   
+    background-color: #F7EBCF;
+    margin-top:50px;
+    padding: 40px;
+    width: 30%;
+    height: px;   
+    text-align: start;
+    border-radius: 16px;
+}
+
+.box3_btn{
+    margin-top: 10px;
+    padding: 11px 20px;
+    background-color: #FFC239;
+    border-radius: 8px;
+    font-weight:600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* ________________ Vision of bangladesh styles  End_______________________ */
+
+
+/* ________________ Challenge styles  Start_______________________ */
+
+.challenge_section{
+    
+    /* height: 500px; */
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat ;
+    background-position: 40px 20px;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+   
+}
+
+.challenge_para{
+    padding-bottom: 20px;
+}
+.challenge_head{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+/*  ___________ Challenge styles  End_______________________ */
