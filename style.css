@@ -39,6 +39,8 @@ body{
     margin-bottom: 10px;
     margin-top: 10px;
     padding-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
 }
 .common_btn{
     margin-top: 10px;
@@ -334,8 +336,82 @@ nav{
     text-align: center;
 }
 
-
-
 /*  ___________ Donate Today styles  end_______________________ */
+
+
+/*  ___________ subscribs newslatter styles  starts_______________________ */
+
+
+.subscrib_newslatter_section{
+    background-color: #C6E4D6;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+
+
+.form_input{
+    padding: 17px 400px;
+    background-color: rgb(240, 243, 246);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    margin:24px 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.form_input::placeholder{
+    color:  rgba(14, 14, 14, 0.3);
+}
+
+.subscrib_btn{
+    
+        padding: 17px 34px  ;
+       
+        background: rgb(0, 106, 80);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 600;
+        margin:24px 0;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    
+}
+
+/*  ___________ subscribs newslatter styles  end_______________________ */
+
+
+/*  ___________ footer styles  start_______________________ */
+
+
+footer{
+    
+    text-align: center;
+    margin-top: 60px;
+    padding: 50px;
+}
+.footer_title{
+    margin-bottom: 65px;
+}
+
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/*  ___________ footer styles  end_______________________ */
+
+
+
 
 
