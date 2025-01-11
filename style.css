@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* global style */
 *{
     margin: 0;
@@ -7,6 +9,7 @@
 body{
     width:85%;
     margin: 0 auto;
+    font-family: Fira Sans;
 }
 
 /* ________________Shared Property Style Starts____________________ */
@@ -58,15 +61,18 @@ body{
 
 /* ________________Navbar styles sections start_______________________ */
 
-.nav_btn{
+.signin_btn{
     margin-top: 30px;
     padding: 15px 30px;
     border: 1px solid green;
     border-radius: 8px;
     color: green;
     font-weight:600;
+    font-size: 18px;
 }
-
+.signin_btn:hover{
+    background: rgb(232, 69, 69);
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -87,7 +93,8 @@ nav{
     background: rgb(198, 228, 214);
     display: flex ;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;  
+    border: none;  
 }
 
 .title_text_part{
@@ -113,15 +120,20 @@ nav{
     margin:24px 0;
     border: none;
 }
+.banner_btn:hover{
+    background: #6e4e4e;
+}
 /* ________________Banner-section styles  End_______________________ */
 
 
 /* ________________pillers of bangladesh -section styles  start_______________________ */
+
 .pillers_of_ban_section{
    
     margin-bottom: 80px;
     
 }
+
 .pillars_container{
     display: flex;
     justify-content:flex-start;
@@ -135,6 +147,10 @@ nav{
     height: 200px;
     text-align: start;
     border-radius: 16px;
+}
+
+.pillars_box1:hover{
+    background: rgb(243, 232, 212);
 }
 
 
@@ -165,6 +181,10 @@ nav{
     text-align: start;
     border-radius: 16px;
 }
+.vision_box1:hover{
+    background: rgb(175, 201, 245) ;
+}
+
 .box1_btn{
     margin-top: 10px;
     padding: 11px 20px;
@@ -174,6 +194,9 @@ nav{
     font-size: 16px;
     color: #FFFFFF;
     border: none;
+}
+.box1_btn:hover{
+    background:rgb(174, 221, 80);
 }
 .vision_box2{
    
@@ -185,6 +208,10 @@ nav{
     text-align: start;
     border-radius: 16px;
 }
+
+.vision_box2:hover{
+    background: #98efc8;
+}
 .box2_btn{
     margin-top: 10px;
     padding: 11px 20px;
@@ -194,6 +221,9 @@ nav{
     font-size: 16px;
     color: #FFFFFF;
     border: none;
+}
+.box2_btn:hover{
+    background:rgb(229, 189, 90);
 }
 
 .vision_box3{
@@ -206,7 +236,9 @@ nav{
     text-align: start;
     border-radius: 16px;
 }
-
+.vision_box3:hover{
+    background: #fadfa0;
+}
 .box3_btn{
     margin-top: 10px;
     padding: 11px 20px;
@@ -217,11 +249,13 @@ nav{
     color: #FFFFFF;
     border: none;
 }
-
+.box3_btn:hover{
+    background:rgb(158, 114, 200);
+}
 /* ________________ Vision of bangladesh styles  End_______________________ */
 
 
-/* ________________ Challenge styles  Start_______________________ */
+/* ________________ Challenge dr yunus styles  Start_______________________ */
 
 .challenge_section{
     
@@ -245,7 +279,7 @@ nav{
     margin-bottom: 7px;
 }
 
-/*  ___________ Challenge styles  End_______________________ */
+/*  ___________ Challenge yunus styles  End_______________________ */
 
 /*  ___________ Recent News styles  start_______________________ */
 
@@ -267,9 +301,10 @@ nav{
     border-radius: 15px;
     
 }
-.recent_img_part{
-    
+.recent_news_card1:hover{
+    background: rgb(211, 231, 231);
 }
+
 .metro_img{
     height: 270px;
     width: 400px;
@@ -310,6 +345,9 @@ nav{
     border-radius: 16px;
     background-color: #f6f3f3;
 }
+.mony_card:hover{
+    background: #C6E4D6;
+}
 .mony_card_x{
     padding: 40px 40px;
     border-radius: 16px;
@@ -343,7 +381,7 @@ nav{
 
 
 .subscrib_newslatter_section{
-    background-color: #C6E4D6;
+    background-color: #b6d2c4;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -353,7 +391,9 @@ nav{
     margin-bottom: 40px;
 
 }
-
+.subscrib_newslatter_section:hover{
+    background: #9ad5ba;
+}
 
 .form_input{
     padding: 17px 400px;
@@ -384,6 +424,9 @@ nav{
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
     
+}
+.subscrib_btn:hover{
+    background: rgb(188, 222, 137);
 }
 
 /*  ___________ subscribs newslatter styles  end_______________________ */
