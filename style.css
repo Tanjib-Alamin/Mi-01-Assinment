@@ -281,3 +281,61 @@ nav{
 }
 
 /*  ___________ Recent News styles  end_______________________ */
+
+/*  ___________ Donate Today styles  start_______________________ */
+
+.donate_section{
+    
+    margin-bottom: 40px;
+}
+.title_bar{
+    text-align: center;
+}
+.donate_para{
+   
+}
+.money_card_container{
+   margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 40px;
+
+}
+.mony_card{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background-color: #f6f3f3;
+}
+.mony_card_x{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+}
+
+.input_money_card{
+    
+}
+.input_money{
+
+    padding: 30px 685px;
+    border-radius: 15px;
+    background-color: rgb(240, 243, 246);
+    font-size: 20px;
+    border: none;
+}
+
+.input_money::placeholder{
+    color: rgb(205, 203, 203);
+}
+.money_btn{
+    
+    text-align: center;
+}
+
+
+
+/*  ___________ Donate Today styles  end_______________________ */
+
+
